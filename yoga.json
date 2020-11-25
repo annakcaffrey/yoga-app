@@ -1,4 +1,4 @@
-{
+{"levels":[{
     "Beginner" : [
     {
       "body_part": "Leg",
@@ -35,5 +35,7 @@
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
       "Audio": "audio/sampSound4.ogg"
       }
+    ]
+}
     ]
     } 
