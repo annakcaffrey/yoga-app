@@ -1,0 +1,39 @@
+{
+    "Beginner" : [
+    {
+      "body_part": "Leg",
+      "ID": "1",
+      "Position": "Downward Dog",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "Audio": "audio/sampSound.ogg"
+      },
+      {
+      "body_part": "Arm",
+      "ID": "2",
+      "Position": "Tricep Stretch",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "Audio": "audio/sampSound2.ogg"
+      }
+    ],
+    
+    "Intermediate":  [
+    { 
+      "body_part": "Leg",
+      "ID": "3",
+      "Position": "Pigeon Stretch",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "Audio": "audio/sampSound3.ogg"
+      },
+      {
+      "body_part": "Arm",
+      "ID": "4",
+      "Position": "Shoulder Stand",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "Audio": "audio/sampSound4.ogg"
+      }
+    ]
+    } 
