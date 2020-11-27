@@ -6,7 +6,7 @@
       "Position": "Downward Dog",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "audio/sampSound.ogg"
+      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       },
       {
       "body_part": "Arm",
@@ -14,7 +14,7 @@
       "Position": "Tricep Stretch",
       "imgURL": "https://media.self.com/photos/5b7c4e71ecbb7f4c41c77335/4:3/w_1600%2Cc_limit/triangle-pose-beginner-yoga.jpg",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "audio/sampSound2.ogg"
+      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       }
     ],
     
@@ -25,7 +25,7 @@
       "Position": "Pigeon Stretch",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "audio/sampSound3.ogg"
+      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       },
       {
       "body_part": "Arm",
@@ -33,7 +33,7 @@
       "Position": "Shoulder Stand",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "audio/sampSound4.ogg"
+      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       }
     ]
 }
