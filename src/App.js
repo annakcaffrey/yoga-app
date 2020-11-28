@@ -63,34 +63,41 @@ class App extends Component {
       // we have no errors and we have data
       return (
         <div className="App">
-          <div className="PeopleTable">
-            <h1>CS385 - API Fetch Call</h1>
-            <table border="1">
-              <thead>
-                <tr>
-                  <th>Body Part</th>
-                  <th>Stretch</th>
-                  <th>Image Link</th>
-                  <th>Stretch Description</th>
-                  <th>Audio File</th>
-                </tr>
-              </thead>
-              <tbody>
+        {/*dropdown button select starts*/}
+        <div classNAme="dropdown">
+          <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            SELECT BODY PART
+          </button>
+            <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button className="dropdown-item" type="button">HIPS</button>
+            <button className="dropdown-item" type="button">ARMS</button>
+            <button className="dropdown-item" type="button">BACK</button>
+            </div>
+        </div>
+        {/*dropdown button select ends*/}
+
+        {/*card container starts*/}
+        <div className="row">
+          <div className="col-sm-6">
+          <div className="card">
                 {this.state.apiDataBeginner.map((person, index) => (
-                  <tr key={index}>
-                    <td>{person.body_part}</td>
-                    <td>{person.Position}</td>
-                    <td><img src={person.imgURL}/></td>
-                    <td>{person.Description}</td>
-                    <td><audio controls autoplay>
+                  <div className="card-body">
+                  <img className="card-img-top" alt="yogapic" src={person.imgURL} key={index}/>
+
+                    <h3 className="card-title">{person.body_part}</h3>
+                    <h5 className="car-title">{person.Position}</h5>
+                    <p className="card-text">{person.Description}</p>
+                    
+                    <audio controls autoplay>
                     <source src={person.Audio}/>
-                    </audio></td>
-                  </tr>
+                    </audio>                                    
+                  </div>
                 ))}
-              </tbody>
-            </table>
+          </div>
           </div>
         </div>
+        {/*container ends*/}
+      </div>
       ); // end of return
     } // end of the else statement.
   } // end of render()
