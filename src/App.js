@@ -8,17 +8,23 @@ class App extends Component {
     // apiData is an array to hold our JSON data
     // isFetched indicates if the API call has finished
     // errorMsg is either null (none) or there is some error
-    this.state = {
-      apiData: [],
-      apiDataBeginner: [],
-      apiDataIntermediate: [],
-      isFetched: false,
-      errorMsg: null
-    };
+    //beginner property begins set to false
+    this.state = {apiData: [], apiDataBeginner: [], apiDataIntermediate: [], isFetched: false, errorMsg: null, isBeginner: false, isIntermediate: false};
   }
+  //****************function called on button click, isBeginner = true*********************//
+  //****************this function can be copied for each button click********************//
+  toggleBeginner = () => {
+    this.setState(state => ({isBeginner : !state.isBeginner}));
+  }
+
+  toggleIntermediate = () => {
+    this.setState(state => ({isIntermediate : !state.isIntermediate}));
+  }
+  //****************function called on button click, isBeginner = true*********************//
+
+  //****************API calls starts here********************// 
   // componentDidMount() is invoked immediately after a
   // component is mounted (inserted into the tree)
-
   async componentDidMount() {
     try {
       const API_URL =
@@ -30,8 +36,9 @@ class App extends Component {
       const jsonResult = await response.json();
 
       // update the state variables correctly.
-      this.setState({ apiDataBeginner: jsonResult.Beginner });
-      this.setState({ apiDataIntermediate: jsonResult.Intermediate }); //This may need to change
+      //access different parts of the json array by initializing this.setState and creating key:value pairs.
+      this.setState({ apiDataBeginner: jsonResult.Beginner});
+      this.setState({ apiDataIntermediate: jsonResult.Intermediate });
       this.setState({ isFetched: true });
     } catch (error) {
       // In the case of an error ...
@@ -41,12 +48,11 @@ class App extends Component {
     } // end of try catch
   } // end of componentDidMount()
 
-  // Remember our three state variables.
   // PAY ATTENTION to the JSON returned. We need to be able to
   // access specific properties from the JSON returned.
   // Notice that this time we have three possible returns for our
   // render. This is conditional rendering based on some conditions
-  render() {
+render() {
     if (this.state.errorMsg) {
       return (
         <div className="error">
@@ -61,26 +67,31 @@ class App extends Component {
       ); // end of return
     } else {
       // we have no errors and we have data
-      return (
-        <div className="App">
-        {/*dropdown button select starts*/}
-        <div classNAme="dropdown">
-          <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            SELECT BODY PART
-          </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <button className="dropdown-item" type="button">HIPS</button>
-            <button className="dropdown-item" type="button">ARMS</button>
-            <button className="dropdown-item" type="button">BACK</button>
-            </div>
-        </div>
-        {/*dropdown button select ends*/}
+//****************API calls end here********************//
 
-        {/*card container starts*/}
-        <div className="row">
-          <div className="col-sm-6">
-          <div className="card">
+
+//****************App return starts here********************//      
+ return (
+      <div className="App">
+      {/*start of drop down button menu*/}
+      <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Please select your level
+      </button>
+        <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <button onClick={this.toggleBeginner} className="dropdown-item" type="button">Beginner</button>
+        <button onClick={this.toggleIntermediate} className="dropdown-item" type="button">Intermediate</button>
+        </div>
+      {/*end of drop down button menu*/}
+
+        {/*card container starts with map function*/}
+        {/*Start of beginner map function triggered by a drop down button click. The button is a toggle button with two states, true and false.
+        The function is a ternary operator, if is beginner is true the card and its contents is rendered, otherwise null.
+        First click renders card content to the screen. Second click hides card*/}
+        {this.state.isBeginner ? 
+        <div className="card-group">
                 {this.state.apiDataBeginner.map((person, index) => (
+          <div className="card text-center">
+            <div class="card">
                   <div className="card-body">
                   <img className="card-img-top" alt="yogapic" src={person.imgURL} key={index}/>
 
@@ -92,14 +103,42 @@ class App extends Component {
                     <source src={person.Audio}/>
                     </audio>                                    
                   </div>
+            </div>
+          </div>
                 ))}
+        </div> :null}
+        {/*End of level beginner map function triggered by a drop down button click*/}
+        {/*container ends*/}
+
+        {/*card container starts with map function*/}
+        {/*Start of intermediate map function triggered by a drop down button click. The button is a toggle button with two states, true and false. 
+        First click renders card content to the screen. Second click hides card*/}
+        {this.state.isIntermediate ? 
+        <div className="card-group">
+                {this.state.apiDataIntermediate.map((person, index) => (
+          <div className="card text-center">
+            <div class="card">
+                  <div className="card-body">
+                  <img className="card-img-top" alt="yogapic" src={person.imgURL} key={index}/>
+
+                    <h3 className="card-title">{person.body_part}</h3>
+                    <h5 className="car-title">{person.Position}</h5>
+                    <p className="card-text">{person.Description}</p>
+                    
+                    <audio controls autoplay>
+                    <source src={person.Audio}/>
+                    </audio>                                    
+                  </div>
+            </div>
           </div>
-          </div>
-        </div>
+                ))}
+        </div> :null}
+        {/*End of intermediate map function triggered by a drop down button click*/}
         {/*container ends*/}
       </div>
       ); // end of return
     } // end of the else statement.
   } // end of render()
 } // end of App class
+
 export default App;
