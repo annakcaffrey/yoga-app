@@ -1,39 +1,55 @@
 {
-    "Beginner" : [
+    "beginner" : [
     {
-      "body_part": "Leg",
-      "ID": "1",
-      "Position": "Downward Dog",
+      "body_part": "Hips",
+      "id": "1",
+      "position": "Eye of the Needle",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      "description": "Start by lying on your back. Cross one ankle over the opposite thigh and feel your hip release. If you want a deeper stretch lift your bottom leg off the ground. Wrap your arms around your hamstring for support. Hold this pose for 30 to 60 seconds, then switch legs. ",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       },
       {
-      "body_part": "Arm",
-      "ID": "2",
-      "Position": "Tricep Stretch",
+      "body_part": "Legs",
+      "id": "2",
+      "position": "Downward Dog",
       "imgURL": "https://media.self.com/photos/5b7c4e71ecbb7f4c41c77335/4:3/w_1600%2Cc_limit/triangle-pose-beginner-yoga.jpg",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      "description": "Begin on the floor with your knees directly under your hips and your hands slightly forward from your shoulders. Turn your toes under, spread your fingertips, exhale, and raise your knees off the floor. Lengthen your tailbone to the sky, and hold you head between your arms. Gently work to touch your heels to the gorund. Hold this pose for 1 to 3 minutes.",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       }
     ],
+    {
+      "body_part": "Arms",
+      "id": "1",
+      "position": "Eagle Arms",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "description": "As you inhale, stretch your arms out to your sides. As you exhale, bring them in front of you, swinging your right arm under your left and grabbing your shoulders with opposite hands. Imagine you’re giving yourself a hug. If you have more flexibility in your shoulders, you can release your grip and continue wrapping your forearms around each other. If your palms can touch, let your right fingers press in your left palm. If they can’t, press the backs of your hands together. Inhaling, lift your elbows a few inches higher. Exhaling, relax your shoulders down away from your ears. Take a few breaths, repeating the elbow lift and shoulder roll, if you like. When ready, switch sides, so that your left arm is the bottom arm.",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      },
+     {
+      "body_part": "Back",
+      "id": "1",
+      "position": "Mountain with Arms Up",
+      "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+      "description": "the arms are lifted up toward the sky and the back is arched. The elbows are straight and the biceps are by the ears. The palms are open and face each other with the fingers spread wide. The pelvis is tucked. The ribcage is lifted. The gaze is toward the sky. Hold this pose for 1 minute.",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      }
     
-    "Intermediate":  [
+    "intermediate":  [
     { 
       "body_part": "Leg",
-      "ID": "3",
-      "Position": "Pigeon Stretch",
+      "id": "3",
+      "position": "Pigeon Stretch",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       },
       {
       "body_part": "Arm",
-      "ID": "4",
-      "Position": "Shoulder Stand",
+      "id": "4",
+      "position": "Shoulder Stand",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-      "Audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+      "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
       }
     ]
 }
