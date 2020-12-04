@@ -18,7 +18,7 @@
       },
     {
       "body_part": "Arms",
-      "id": "1",
+      "id": "3",
       "position": "Eagle Arms",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "description": "As you inhale, stretch your arms out to your sides. As you exhale, bring them in front of you, swinging your right arm under your left and grabbing your shoulders with opposite hands. If your palms can touch, let your right fingers press in your left palm. If they can’t, press the backs of your hands together. Inhaling, lift your elbows a few inches higher. Exhaling, relax your shoulders down away from your ears. Take a few breaths, repeating the elbow lift and shoulder roll. When ready, switch sides.",
@@ -26,7 +26,7 @@
       },
      {
       "body_part": "Back",
-      "id": "1",
+      "id": "4",
       "position": "Mountain with Arms Up",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "description": "the arms are lifted up toward the sky and the back is arched. The elbows are straight and the biceps are by the ears. The palms are open and face each other with the fingers spread wide. The pelvis is tucked. The ribcage is lifted. The gaze is toward the sky. Hold this pose for 1 minute.",
@@ -37,7 +37,7 @@
     "intermediate":  [
     { 
       "body_part": "Leg",
-      "id": "3",
+      "id": "5",
       "position": "Pigeon Stretch",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
@@ -45,7 +45,7 @@
       },
       {
       "body_part": "Arm",
-      "id": "4",
+      "id": "6",
       "position": "Shoulder Stand",
       "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
