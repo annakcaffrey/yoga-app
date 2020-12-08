@@ -1,0 +1,111 @@
+{
+    "levels": [{
+            "level": "beginner",
+            "body_part": "Hips",
+            "id": "1",
+            "position": "Eye of the Needle",
+            "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+            "description": "Start by lying on your back. Cross one ankle over the opposite thigh and feel your hip release. If you want a deeper stretch lift your bottom leg off the ground. Wrap your arms around your hamstring for support. Hold this pose for 30 to 60 seconds, then switch legs. ",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "beginner",
+            "body_part": "Legs",
+            "id": "2",
+            "position": "Downward Dog",
+            "imgURL": "https://media.self.com/photos/5b7c4e71ecbb7f4c41c77335/4:3/w_1600%2Cc_limit/triangle-pose-beginner-yoga.jpg",
+            "description": "Begin on the floor with your knees directly under your hips and your hands slightly forward from your shoulders. Turn your toes under, spread your fingertips, exhale, and raise your knees off the floor. Lengthen your tailbone to the sky, and hold you head between your arms. Gently work to touch your heels to the gorund. Hold this pose for 1 to 3 minutes.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "beginner",
+            "body_part": "Arms",
+            "id": "3",
+            "position": "Eagle Arms",
+            "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+            "description": "As you inhale, stretch your arms out to your sides. As you exhale, bring them in front of you, swinging your right arm under your left and grabbing your shoulders with opposite hands. If your palms can touch, let your right fingers press in your left palm. If they can’t, press the backs of your hands together. Inhaling, lift your elbows a few inches higher. Exhaling, relax your shoulders down away from your ears. Take a few breaths, repeating the elbow lift and shoulder roll. When ready, switch sides.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "beginner",
+            "body_part": "Back",
+            "id": "4",
+            "position": "Mountain with Arms Up",
+            "imgURL": "https://www.lifewithdogs.tv/wp-content/uploads/2016/06/yoga-down-dog-2.jpg",
+            "description": "the arms are lifted up toward the sky and the back is arched. The elbows are straight and the biceps are by the ears. The palms are open and face each other with the fingers spread wide. The pelvis is tucked. The ribcage is lifted. The gaze is toward the sky. Hold this pose for 1 minute.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "intermediate",
+            "body_part": "Hips",
+            "id": "5",
+            "position": "Pigeon Stretch",
+            "imgURL": "https://www.ekhartyoga.com/media/images/articles/content/Pigeon-pose-Eka-Pada-Rajakapotasana-Ekhart-Yoga.jpg",
+            "description": "Place your two hands on the floor in front of you, shoulder distance apart. Bring your right knee to the outside of your right hand and lean your chest forward. Repeat with your left leg.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "intermediate",
+            "body_part": "Legs",
+            "id": "6",
+            "position": "Warrior 2",
+            "imgURL": "https://www.ekhartyoga.com/media/images/articles/content/Warrior-2-yoga-pose-Virabhadrasana-II-Ekhart-Yoga.jpg",
+            "description": "Extend your arms to a T. Place your feet more than shoulder with apart. Keep your left foot facing forward and turn your right foot in the direction of your right arm. Bend your right knee and lean into your right side. Look towards your right arm as lean deeper into the strecth ",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "intermediate",
+            "body_part": "Arms",
+            "id": "7",
+            "position": "The Rack",
+            "imgURL": "https://www.yogajournal.com/.image/t_share/MTQ2MTgwNzkyNDcxMDcwMTQx/image-placeholder-title.jpg",
+            "description": "Sitting down on the floor, extend your two arms back behind you, shoulder width apart. Turn your hands to face away from your body. Extend your arms as far away from your body as you can and keep pushing back on your arms.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "intermediate",
+            "body_part": "Back",
+            "id": "8",
+            "position": "Spinal Twist",
+            "imgURL": "https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczMDIwMzA2ODc3/hp_280_02_fnl-reclining-twist.jpg",
+            "description": "Lie on your back and place your two arms out to a T facing down. Lift your legs up so your legs are at a 90 degree angle and your knees are above your hips. Let your legs bend and fall to the left side, keeping your right shoulder on the floor. Repeat on the other side.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "advanced",
+            "body_part": "Hips",
+            "id": "9",
+            "position": "Bound Angle I",
+            "imgURL": "https://www.rishikulyogshala.org/wp-content/uploads/2018/06/butterfly-pose-1.jpg",
+            "description": "Bend both knees and pull your heels toward your pelvis. Drop your knees out to the sides and press the soles of your feet together. Bring your heels as close to your pelvis as possible and try to keep the outer edges of the feet firmly on the floor. If you can, use your hands to open the soles of your feet upward. Keeping the pose, begin to lengthen your spine up, hinge forward from your hips and keep your sit bones rooted. ",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "advanced",
+            "body_part": "Legs",
+            "id": "10",
+            "position": "Standing Hand to Toe",
+            "imgURL": "https://yogamagazine.com/wp-content/uploads/2014/02/Hand_to_toe.jpg",
+            "description": "Begin standing. Shift your weight to one foot, and ground down firmly. Bend your opposite knee up toward your chest using the same side arm to hug it in. Wrap your index and middle finger around your big toe and begin to straighten your knee out in front of you. Place your opposite hand to your hip and square off your shoulders. Use a strap if necessary. Gaze toward the front.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "advanced",
+            "body_part": "Arms",
+            "id": "11",
+            "position": "Noose",
+            "imgURL": "https://www.yogajournal.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTQ2MTgwNjcyMjA4MzE1OTM2/noose-pose-pasasana.webp",
+            "description": "Bring the top arm up and around the back to meet the bottom arm that will reach under and wrap around its respective knee to be met at the wrist by the top hand. On the inhale, elongate the spine and on the exhale take the twist slightly deeper. Keep the heart open and the gaze should be slightly over the top shoulder.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        },
+        {
+            "level": "advanced",
+            "body_part": "Back",
+            "id": "12",
+            "position": "Wheel",
+            "imgURL": "https://www.verywellfit.com/thmb/eCR_V6qFZvPsKn-DCmxXJKGfREI=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/55-3567138-WheelPose-004-b768aa1db0ff4ba99e01947e2ffb5b84.jpg",
+            "description": "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed toward the heels. The feet are grounded. The hips are pressed up. The thighs are rotated inward. The thoracic spine is arched creating a strong crescent arch along the spinal column. The gaze is forward.",
+            "audio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        }
+    ]
+}
